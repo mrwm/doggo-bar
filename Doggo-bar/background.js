@@ -6,5 +6,6 @@ chrome.browserAction.onClicked.addListener(function(tab) {
   });
   chrome.tabs.executeScript({
     code: 'document.getElementById("durg").src=chrome.extension.getURL("doggo.svg")'
+    //code: 'alert("derp")'
   });
 });

@@ -1,9 +1,9 @@
 var divy=document.createElement('div');
 var imgy = document.createElement('img');
 imgy.setAttribute('id','durg');
-imgy.setAttribute('src','https://wiiliam.github.io/fishies.me/Portfolio/assets/img/doggo.svg');
+//imgy.setAttribute('src','https://wiiliam.github.io/fishies.me/Portfolio/assets/img/doggo.svg');
 imgy.style='transition: .3s ease;position:absolute;bottom:0px;width:96px;height:80px;';
-divy.style='position:fixed;bottom:5px;left:5px;zIndex:9999;width:100%;display:block';
+divy.style='position:fixed;bottom:5px;left:5px;z-index:999;width:100%;display:block';
 document.body.appendChild(divy);
 divy.appendChild(imgy);
 var oldscroll = window.pageYOffset;
