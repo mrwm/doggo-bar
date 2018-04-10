@@ -5,7 +5,8 @@ chrome.browserAction.onClicked.addListener(function(tab) {
     file: 'script.js'
   });
   chrome.tabs.executeScript({
-    code: 'document.getElementById("durg").src=chrome.extension.getURL("doggo.svg")'
+    code: "document.getElementById('durgo').src=chrome.extension.getURL('doggo.svg')"
+    //code:"document.body.style.backgroundColor='" + e.target.id + "'"
     //code: 'alert("derp")'
   });
 });
