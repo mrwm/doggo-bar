@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Doggo Bar</title>
+    <style>
+    body {
+      overflow: hidden;
+      margin: 0px;
+      padding: 0px;
+      background: #FFE8C5;
+    }
+    div {
+      background: rgba(0,0,0,0);
+      margin-top: 0px;
+      cursor: pointer;
+      width: 100%;
+      height:100%;
+      margin: 0 0;
+      font-size: 48px;
+    }
+    .text:hover {
+      background: #aaaaaa;
+    }
+    .text {
+      font-size: 24px;
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+      background-color: #e9b96e;
+      border:3px #7F7462 solid;
+    }
+    #mainPopup {
+      margin-top: -5px;
+      height: 50px;
+      width: 200px;
+      font-family: Helvetica, Ubuntu, Arial, sans-serif;
+    }
+    #doggo {
+      margin-top: 0px;
+    }
+
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body> <!-- onclick="click(e)"-->
+    <div id="mainPopup">
+      <div id="doggo" class="sect"><button class="text" value="doggo.svg">Spawn Corgi!</button></div>
+      <div id="hot" class="sect"><button class="text" value="hotdog.svg">Spawn Hotdog!</button></div>
+    </div>
+  </body>
+</html>
