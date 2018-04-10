@@ -8,11 +8,12 @@ function launch(event) {null,
   chrome.tabs.executeScript({
     file: 'script.js'
   });
+  chrome.tabs.insertCSS(null, {
+    file : "style.css"
+  });
   chrome.tabs.executeScript(null,
     //{code:"alert('" + event.target.value + "')"}
     {code:"document.getElementById('durgo').src=chrome.extension.getURL('" + event.target.value + "')"}
-    //{code:"document.getElementById('durgo').src='" + chrome.extension.getURL(event.target.value + '.svg') + "'"}
-
     );
   window.close();
 }

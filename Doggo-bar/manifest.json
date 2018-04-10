@@ -20,6 +20,7 @@
   },
   "web_accessible_resources": [
     "doggo.svg",
-    "hotdog.svg"
+    "hotdog.svg",
+    "style.css"
   ]
 }
