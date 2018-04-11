@@ -19,8 +19,10 @@
       "default_popup": "popup.html"
   },
   "web_accessible_resources": [
-    "doggo.svg",
-    "hotdog.svg",
+    "img/doggo.svg",
+    "img/hotdog.svg",
+    "img/gcat.svg",
+    "img/blank.png",
     "style.css"
   ]
 }
