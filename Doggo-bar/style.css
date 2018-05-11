@@ -9,9 +9,9 @@
 #proggo {
   transition: .3s ease;
   position:absolute;
-  bottom:0px;
-  width:120px;
-  background-color:rgba(0,0,0,0.3);
+  bottom:75px;
+  width:100px;
+  background-color:rgba(0,0,0,0.5);
   color:#fff;
   text-align:center;
   border-radius:6px;
@@ -19,7 +19,42 @@
   z-index:9999;
   visibility:hidden;
 }
+#proggo:after, .#proggo:before {
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  pointer-events: none;
+}
 #durgo:hover ~ #proggo { visibility:visible;}
+.arrow_box {
+	position: relative;
+	background: #000000;
+	border: 4px solid #243233;
+}
+.arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(0, 0, 0, 0);
+	border-top-color: #000000;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.arrow_box:before {
+	border-color: rgba(36, 50, 51, 0);
+	border-top-color: #243233;
+	border-width: 16px;
+	margin-left: -16px;
+}
 #pathOfDog {
   position:fixed;
   bottom:0px;

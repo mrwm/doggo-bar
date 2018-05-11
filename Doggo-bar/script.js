@@ -4,6 +4,7 @@ var imgy = document.createElement('img');
 imgy.setAttribute('id','durgo');
 var tooltip = document.createElement('span');
 tooltip.setAttribute('id','proggo');
+tooltip.setAttribute('class','arrow_box');
 document.body.appendChild(divy);
 divy.appendChild(imgy);
 divy.appendChild(tooltip);

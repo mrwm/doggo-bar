@@ -3,22 +3,26 @@ Scroll progress bar indicator
 ---
 
 ## Status:
-I learned a nice way to get CSS into the extension! I might revisit the slider idea soon.
+There seems to be a box that refuses to be removed unless page is refreshed.  
+I'll also need to look into a way to actually remove the pictures upon spawing  
+nothing.
 
 ## TODO:
 
 * ~~Darker color~~
 * Add options page
-  * *Toggle ON / OFF instead of reload* ^^eh, ^^it's ^^kinda ^^half ^^implemented
+  * *Toggle ON / OFF instead of reload* <sup>eh, it's kinda half implemented</sup>
   * Custom speed
   * Direction (RtL or LtR)
   * ~~Tooltip showing % scrolled~~
-  * ~~Click and drag to scroll page --> move to html range slider~~
+  * ~~Click and drag to scroll page --> move to html range slider~~ [idea placed on hold]
   * Dog type
-    * Shiba
+    * ~~Shiba~~
     * Samoyed
     * Pomeranian
+    * ~~Husky~~
     * ~~Hotdog~~
-    * ~~Maybe a cat?~~
+    * ~~Cat (lol)~~
     * Maybe a custom image option?
 * Fix the disappearing dog? (happens after the tab becomes inactive)
+* Fix annoying empty grey box
