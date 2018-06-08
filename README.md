@@ -2,6 +2,12 @@
 Scroll progress bar indicator
 ---
 
+---
+
+Available on the Chrome Web Store!  
+https://chrome.google.com/webstore/detail/doggo-bar/jcpkamjdbelgcadjpljdljkelglhkbcg
+
+
 ## Status:
 There seems to be a box that refuses to be removed unless page is refreshed.  
 I'll also need to look into a way to actually remove the pictures upon spawing  
